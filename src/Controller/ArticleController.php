@@ -13,9 +13,14 @@ class ArticleController extends AbstractController
      */
     public function hello()
     {
-        $name = 'Maxime';
+        $category =[
+            'title' => 'Goofy',
+            'color' => 'yellow',
+            'published' => true,
+            'description' => "Goofy is an animated character that first appeared in 1932's Mickey's Revue"
+        ];
         return $this->render('category_potato.html.twig',[
-            'name' => $name
+            'category' => $category
         ]);
     }
 }
