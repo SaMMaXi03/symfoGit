@@ -14,7 +14,7 @@ class ArticleController extends AbstractController
     public function hello()
     {
         $name = 'Maxime';
-        return $this->render('category_show.html.twig',[
+        return $this->render('category_potato.html.twig',[
             'name' => $name
         ]);
     }
