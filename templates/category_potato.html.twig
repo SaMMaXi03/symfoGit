@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hellooooooo</title>
+    <title>Disney</title>
 </head>
 <body>
-{% if category.published %}
-    <article style="background-color: {{ category.color }}">
-        <h1>{{ category.title }}</h1>
-        <p>{{ category.description }}</p>
-    </article>
-{% else %}
-    <p>{{ not here }}</p>
-{% endif %}
+    <main>
+        {% for star in stars %}
+            {% if star.published %}
+                <article style="border-color: 1px solid {{ star.color }}">
+                    <h1>{{ star.title }}</h1>
+                    <img src="{{ star.image }}" alt="Disney" height="100px">
+                    <p>{{ star.publishedDate|date ('d-m-y') }}</p>
+                </article>
+            {% else %}
+                <p>Article not found</p>
+            {% endif %}
+        {% endfor%}
+    </main>
 </body>
 </html>
