@@ -16,7 +16,7 @@ class ArticleController extends AbstractController
             1 => [
                 'title' => 'Goofy',
                 'color' => 'red',
-                'published' => false,
+                'published' => true,
                 'image' => 'https://disney-planet.fr/wp-content/uploads/2020/01/image-defense-fumer-02-640x478.jpg.webp',
                 'publishedDate' => new \DateTime('NOW')
             ],
@@ -57,3 +57,4 @@ class ArticleController extends AbstractController
         ]);
     }
 }
+
