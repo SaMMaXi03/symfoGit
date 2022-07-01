@@ -1,0 +1,11 @@
+<main>
+    {% if disney.published %}
+        <article style="border-color: 1px solid {{ disney.color }}">
+            <h1>{{ disney.title }}</h1>
+            <img src="{{ disney.image }}" alt="Disney" height="100px">
+            <p>{{ disney.publishedDate|date ('d-m-y') }}</p>
+        </article>
+    {% else %}
+        <p>Article not found</p>
+    {% endif %}
+</main>

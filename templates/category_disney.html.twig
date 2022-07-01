@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disney</title>
-</head>
-<body>
-    <main>
-        {% if disney.published %}
-            <article style="border-color: 1px solid {{ disney.color }}">
-                <h1>{{ disney.title }}</h1>
-                <img src="{{ disney.image }}" alt="Disney" height="100px">
-                <p>{{ disney.publishedDate|date ('d-m-y') }}</p>
-            </article>
-        {% else %}
-            <p>Article not found</p>
-        {% endif %}
-    </main>
-</body>
-</html>
+{% include '_header.html.twig' %}
+
+{% include '_disneyArticle.html.twig' %}
+
+{% include '_footer.html.twig' %}
