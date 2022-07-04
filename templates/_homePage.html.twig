@@ -1,0 +1,14 @@
+{% inclut ' _header.html.twig ' %}
+
+    {% if category.publie %}
+        <article  style = "background-color : {{ category.couleur }};">
+        <h1>{{category.titre}}</h1>
+        <p> {{category.description}}</p>
+        </article>
+
+    {% else %}
+<p>"L'article n'est pas publié !"</p>
+{% endif %}
+
+
+{% include '_footer.html.twig' %}

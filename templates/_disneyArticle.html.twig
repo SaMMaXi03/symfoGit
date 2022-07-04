@@ -1,11 +1,10 @@
-<main>
-    {% if disney.published %}
-        <article style="border-color: 1px solid {{ disney.color }}">
-            <h1>{{ disney.title }}</h1>
-            <img src="{{ disney.image }}" alt="Disney" height="100px">
-            <p>{{ disney.publishedDate|date ('d-m-y') }}</p>
-        </article>
-    {% else %}
-        <p>Article not found</p>
-    {% endif %}
-</main>
+{% if star.published %}
+    <article style="border-color: 1px solid {{ star.color }}">
+        <h1>{{ star.title }}</h1>
+        <img src="{{ star.image }}" alt="Disney" height="100px">
+        <p>{{ star.publishedDate|date ('d-m-y') }}</p>
+        <a href={{ path('star', {'id':star.id}) }}>En savoir plus</a>
+    </article>
+{% else %}
+    <p>Article not found</p>
+{% endif %}
