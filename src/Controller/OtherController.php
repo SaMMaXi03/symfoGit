@@ -42,7 +42,7 @@ class OtherController extends AbstractController
                 'description' => 'Cooking',
                 'color' => 'blue',
                 'published' => true,
-                'image' => 'https://static.wikia.nocookie.net/picsou/images/4/4a/Donald_cuistot_%E2%80%93_Donald_Duck_%28s%C3%A9rie%29/revision/latest?cb=20161007190110&path-prefix=fr',
+                'image' => 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea914385-70d7-476d-aa3b-37d0c449c464/de4r0pq-243f882d-5584-470f-ae01-4250012137d4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhOTE0Mzg1LTcwZDctNDc2ZC1hYTNiLTM3ZDBjNDQ5YzQ2NFwvZGU0cjBwcS0yNDNmODgyZC01NTg0LTQ3MGYtYWUwMS00MjUwMDEyMTM3ZDQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EtgBIhXChfOov3UlF5tu5aRV__7UHJTKzDtW0Lajx9c',
                 'publishedDate' => new \DateTime('NOW'),
                 'id' => 4
             ],
@@ -100,7 +100,7 @@ class OtherController extends AbstractController
             'description' => 'Cooking',
             'color' => 'blue',
             'published' => true,
-            'image' => 'https://static.wikia.nocookie.net/picsou/images/4/4a/Donald_cuistot_%E2%80%93_Donald_Duck_%28s%C3%A9rie%29/revision/latest?cb=20161007190110&path-prefix=fr',
+            'image' => 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea914385-70d7-476d-aa3b-37d0c449c464/de4r0pq-243f882d-5584-470f-ae01-4250012137d4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhOTE0Mzg1LTcwZDctNDc2ZC1hYTNiLTM3ZDBjNDQ5YzQ2NFwvZGU0cjBwcS0yNDNmODgyZC01NTg0LTQ3MGYtYWUwMS00MjUwMDEyMTM3ZDQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EtgBIhXChfOov3UlF5tu5aRV__7UHJTKzDtW0Lajx9c',
             'publishedDate' => new \DateTime('NOW'),
             'id' => 4
             ],
